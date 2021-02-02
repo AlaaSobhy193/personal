@@ -1,0 +1,467 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+ h1, h2{
+     font-family: 'Cairo', sans-serif;
+ }
+ h5{
+     font-family: 'Barlow', sans-serif;
+     letter-spacing: 2px;
+ }
+ h6{
+     font-family: 'Varela Round', sans-serif;
+     font-weight: lighter;
+ }
+ ul{
+     list-style-type: none;
+     overflow: hidden;
+ }
+ a{
+     text-decoration: none;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 8px;
+      color: #000;
+      font-weight: bold;
+ }
+ p{
+     color: gray;
+    padding-bottom: 8px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+ }
+hr{
+    height: 1px;
+    border-width:0;
+    background-color:rgb(214, 209, 209);
+}
+#banner{
+ background-color: #f8f9fa;
+ 
+}
+
+ #banner .container{
+     display: flex;
+     flex-direction:row;
+     margin-bottom: 50px;
+     margin-left: 150px;
+     margin-right: 250px;
+     padding-top: 60px;
+     justify-content: space-around;
+    
+    
+    
+ }
+ #banner a, #second a{
+     color: #ffffff;
+     background-image: linear-gradient(to right,  #7D99FF, #69B6FD);
+     padding: 10px 18px;
+     font-size: 10px;
+ }
+ #banner img{
+     width: 42%;
+ }
+ #banner .content{
+     width: 45%;
+     padding-top: 90px;
+ }
+
+ #second .container{
+     display: flex;
+     align-items: flex-start;
+     flex-direction:row;
+     margin-bottom: 50px;
+     justify-content: space-between;
+     justify-items: left;
+     margin-left: 200px;
+     margin-right: 100px;  
+ }
+ #second img{
+     width: 38%;   
+ }
+ #second .content{
+     width:50%;   
+ }
+ #offered .content{
+    margin: auto; 
+    text-align: center; 
+    width: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+ }
+
+ #offered  h2{
+     line-height: 8px;
+     font-family: 'Varela Round', sans-serif;
+ }
+ #offered-items{
+     display: flex;
+     justify-content: space-between;
+     padding-left: 200px;
+     padding-right: 200px;
+     padding-bottom: 50px;
+ }
+  #offered-items .content{
+      text-align: center;
+      width: 30%;
+  }
+ #offered-items img{
+     width: 25px;
+ }
+ #numbers{
+     padding-top: 50px;
+     padding-bottom: 50px;
+     margin-bottom: 100px;
+     background-image: linear-gradient(to right,  #7D99FF, #69B6FD);
+     
+ }
+ #numbers .content{
+     display: flex;
+     justify-content: space-between;
+    padding: 30px 250px;
+     text-align: center;
+ }
+ #numbers h1, h6{
+     color: #fff;
+     line-height: 5px;
+     
+ }
+  #latest .content{
+    margin: auto; 
+    text-align: center; 
+    width: 40%;
+    padding-bottom: 50px;
+    
+ }
+
+ #latest  h2{
+     line-height: 8px;
+     font-family: 'Varela Round', sans-serif;
+ }
+ #latest-nav ul{
+     justify-content: space-around;
+     padding-left: 38%;
+     padding-right: 38%;
+     padding-bottom: 50px;
+     
+ }
+ 
+ .menu-area-main{
+     display: flex;
+    
+ }
+ #latest-nav ul a:hover{
+      cursor: pointer;
+      color:  #1199FF;
+  }
+  #projects{
+     display: flex;
+     justify-content: space-between;
+     padding-left: 200px;
+     padding-right: 200px;
+     text-align: center;
+ }
+ #projects img{
+     width: 90%;
+ }
+ #projects p, h4{
+     line-height: 4px;
+     font-family: 'Varela Round', sans-serif;
+
+ }
+ #logos{
+
+     background-image: linear-gradient(to right,  #7D99FF, #69B6FD);
+     
+ }
+ #logos .images{
+     display: flex;
+     padding: 60px 220px;
+     text-align: center;
+     justify-content: space-between;
+ }
+ #logos img{
+     height: 60%;
+     opacity: 0.65;
+ }
+ #header{
+  display: flex;  
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 35px;
+ }
+ #header img{
+     width: 100px;
+ }
+ 
+ #header ul li a {
+     padding-left: 20px;
+     font-weight: lighter; 
+}
+ #header ul li a:hover{
+      cursor: pointer;
+      color:  #1199FF;
+  }
+  .dropbtn {
+  display: inline-block;
+  color: #000;
+  text-align: center;
+}
+
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#feedback{
+ background-color: #f8f9fa;
+ margin-top: 70px;
+ 
+}
+#feedback img{
+   
+    padding-top: 10px;
+}
+#feedback .content{
+    margin: 0px auto; 
+    text-align: center; 
+    width: 40%;
+    padding-top: 35px;
+    
+ }
+ .feedback-container{
+     background-color: #fff;
+     display: flex;
+     margin-left: 15px;
+ }
+ #feedback-main{
+    justify-self: start;
+    padding: 10px 20px;
+    display: flex;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.02);
+    height: 130px;
+    text-align: justify;
+    align-items: flex-start;
+
+ }
+ .main-area{
+     padding: 50px 180px;
+     background-color: transparent;
+     display: flex;
+
+ }
+ .feedback-1{
+  padding-left: 20px;
+ }
+ .up-down{
+     padding-top: 7%;
+     margin-left: 8px;
+ }
+.arrow{
+    margin-top: 1px;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#choose-plan .content{
+    margin: 0px auto; 
+    text-align: center; 
+    width: 40%;
+    padding-top: 35px;
+    
+ }
+ #choose-plan{
+     background-color: #fff;
+ }
+ .plan-1{
+     padding: 30px;
+     text-align: center; 
+     margin: auto;    
+ }
+ .plan-1 .circle{
+    height: 85px;
+     width: 85px;
+     border-radius: 50%;
+     background-color:rgb(214, 209, 209);
+     margin: auto; 
+     align-content: center;
+     position: relative;    
+ }
+ .plan-1 .small-circle{
+    height: 50px;
+     width: 50px;
+     border-radius: 50%;
+     margin: 20%;
+     position: absolute;
+     background-color:rgb(233, 232, 232);     
+ }
+ .plan-1 .small-circle p{
+  font-size: 18px;
+  color: #000;
+  position: relative;
+  margin: auto;
+  padding-top: 13px;
+       font-family: 'Barlow', sans-serif;
+
+ }
+ #plans .plans-container{
+     font-weight: bold;
+      background-color: #f8f9fa;
+      display: flex;
+      margin-left: 170px;
+      margin-right: 170px;
+ }
+ .plan-1 p{
+     font-size: 8px;
+ }
+ .plan-1 h4{
+     font-size: 10px;
+ }
+ #footer{
+    height: 250px;
+    background-color: #02021d;
+    display: flex;
+     justify-content: space-between;
+     padding-left: 200px;
+     padding-right: 200px;
+     padding-top: 50px;
+}
+ .foot{
+     padding-right: 50px;
+ }
+ 
+ .foot h4{
+     color: #fff;
+     font-size: 14px;
+ }
+ .foot p{
+     color: gray;
+     font-size: 10px;
+     width: 200px;
+ }
+ .wrapper{
+     display: flex;
+     justify-content: space-between;
+ }
+ .btn{
+     background-color: #5599FF;
+     border: 0;
+     size: 5;
+ }
+ .social i{
+     padding-right: 10px;
+     font-size: 12px;
+ }
+#posts .content{
+    margin: auto; 
+    text-align: center; 
+    width: 40%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+ }
+
+
+ #posts-items  h5{
+     font-size: 10px;
+     line-height: 4px;
+     letter-spacing: 1px;
+     font-family: 'Varela Round', sans-serif;
+ }
+ #posts{
+       background-color: #f8f9fa;
+      margin-top: 100px;
+ }
+ #posts-items{
+      background-color: #f8f9fa;
+     display: flex;
+     justify-content: space-between;
+     padding-left: 200px;
+     padding-right: 200px;
+     padding-bottom: 100px;
+    
+ }
+ 
+  #posts-items .content{
+      width: 30%;
+  }
+  #posts-items #details{
+      display: flex;
+  }
+ #posts-items img{
+     width: 100%;
+ }
+ #details{
+     width: 100%;
+     justify-content: space-between;
+ }
+  #details img{
+     width: 20px;
+     height: 20px;
+     padding-top: 4px;
+ }
+ #details .user{
+     display: flex;
+ }
+  #details h5{
+    font-size: 8px;
+    font-weight: lighter;
+    padding-left: 10px;
+    letter-spacing: 0px;
+    font-family: 'Varela Round', sans-serif;
+
+ }
+ #posts-items #details p{
+     padding-bottom: 0;
+     margin-top: 10px;
+     font-size: 10px;
+ }
+ .comment{
+     display: flex;
+     padding-left: 18px;
+
+ }
+ .comment .fav{
+     display: flex;
+          padding-left: 10px;
+ }
+ .comment .com{
+     display: flex;
+     padding-left: 10px;
+ }
+ 
+
+
